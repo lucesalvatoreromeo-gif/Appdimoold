@@ -1,5 +1,5 @@
 {
-  "name": "Dimora Sorriso - Digital Welcome Guide",
+  "name": "Dimora Sorriso - Guida Ospiti",
   "description": "A comprehensive digital concierge and welcome guide for Dimora Sorriso in Bari, featuring local recommendations, house rules, and an admin dashboard for updates.",
   "requestFramePermissions": [
     "geolocation"

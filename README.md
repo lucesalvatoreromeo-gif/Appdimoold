@@ -1,20 +1,19 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
 
-# Run and deploy your AI Studio app
+# Dimora Sorriso - Guida Digitale
 
-This contains everything you need to run your app locally.
+## Caricamento Manuale su Netlify (Drag & Drop)
 
-View your app in AI Studio: https://ai.studio/apps/drive/1lbLGvUZiOsYWM2E5J1A7gO5M47Je3t6m
+Se non vuoi usare GitHub, segui questi passaggi:
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. Apri il terminale nella cartella del progetto.
+2. Installa i componenti:
+   ```bash
+   npm install
+   ```
+3. Crea il pacchetto per il sito (la cartella `dist`):
+   ```bash
+   npm run build
+   ```
+4. Al termine, vedrai una nuova cartella chiamata **`dist`** nel tuo progetto.
+5. Vai su [Netlify Drop](https://app.netlify.com/drop).
+6. Trascina la cartella **`dist`** (solo quella!) nel riquadro di caricamento.
